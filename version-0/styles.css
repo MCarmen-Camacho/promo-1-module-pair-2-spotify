@@ -183,6 +183,7 @@ header {
   }
   .container-links {
     flex-direction: row;
+    flex-wrap: nowrap;
   }
   .container-copyright {
     margin-bottom: 0;
@@ -190,6 +191,8 @@ header {
   .info {
     display: flex;
     padding-top: 3rem;
+    padding-inline: 0;
+    margin-left: 1rem;
   }
 }
 @media (width>1000px) {
